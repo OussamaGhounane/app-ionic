@@ -1,6 +1,7 @@
 ion-content{
     height: 100%;
 }
+
 .img{
     width: 240px;
     height: 292px;
@@ -41,14 +42,8 @@ ion-slides {
     --bullet-background: #FF7622;
     --bullet-background-active: #FF7622;
 }
-.btn{
-    margin-right: auto;
-    margin-left: auto;
-    width: 327px;
-    height: 62px;
-    margin-top: 40px;
-}
-.btn ion-button{
+
+.nxt{
     width: 327px;
     height: 62px;
     --background: #FF7622;
@@ -60,19 +55,20 @@ ion-slides {
     line-height: 17px;
     text-align: center;
 }
-.btn p{
-font-family: 'Sen';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-
-color: #646982;
+.skp{
+    --background:white ;
+    color: #98A8B8;
+    margin-bottom: 44px;
 }
-.btn ion-button:hover{
-    --background:#FF7622;
+.star{
+    width: 327px;
+    height: 62px;
+    --background: #FF7622;
+    border-radius: 12px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
 }
-
-
-

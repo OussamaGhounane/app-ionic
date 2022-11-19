@@ -1,0 +1,180 @@
+ion-content {
+    height: 100%;
+}
+
+.bg {
+    padding-top: 95px;
+    height: 233px;
+    background-color: #1E1E2E;
+    text-align: center;
+}
+
+.body {
+    background-color: #1E1E2E;
+    height: 844px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+p {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.85;
+}
+
+.sec {
+    padding-top: 24px;
+    height: 610px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    justify-items: center;
+}
+
+ion-input {
+    background-color: #F0F5FA;
+    border-radius: 14px;
+    width: 327px;
+}
+
+.lb {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+}
+
+ion-radio {
+    width: 20px;
+    height: 20px;
+
+}
+
+ion-radio::part(container) {
+    border-radius: 4px;
+    border: 2px solid #ddd;
+}
+
+.forlog {
+    margin-top: 25px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rem {
+    margin-top: 2px;
+    padding-left: 12px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7E8A97;
+    position: absolute;
+    padding-top: px;
+}
+
+.forget {
+
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF7622;
+    padding-left: 199px;
+    margin-top: -18px;
+}
+
+.log {
+    margin-top: 29px;
+    width: 327px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.log ion-button {
+    --background: #FF7622;
+    width: 327px;
+    height: 62px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.acc {
+    display: flex;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.ph {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #646982;
+    height: 24px;
+}
+
+.sign {
+    margin-top: -7px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF7622;
+}
+
+.or {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+    text-align: center;
+    color: #646982;
+}
+ion-icon{
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+}
+.icon{
+    display: flex;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fac{
+    color: #395998;
+}
+.twit{
+    color:#169CE8;
+}

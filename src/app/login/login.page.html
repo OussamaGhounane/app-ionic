@@ -1,0 +1,53 @@
+<ion-content>
+  <div class="body">
+    <div class="bg">
+      <h1>Log In</h1>
+      <p>Please sign in to your existing account</p>
+    </div>
+
+    <section class="sec">
+      <ion-list>
+        <ion-item>
+          <ion-label class="lb" position="stacked">Email</ion-label>
+          <ion-input placeholder="example@gmail.com"></ion-input>
+        </ion-item>
+<br>
+        <ion-item>
+          <ion-label class="lb" position="stacked">Password</ion-label>
+          <ion-input type="password" placeholder="************"></ion-input>
+        </ion-item>
+      </ion-list>
+ 
+      <div class="forlog">
+        <ion-radio-group  [allowEmptySelection]="true" value="turtles">
+          <ion-radio slot="end" value="custom"></ion-radio>
+          <label class="rem">Remember me</label>
+        </ion-radio-group>
+        <ion-button class="forget" fill="clear">Forget Password</ion-button>
+      </div>
+
+      <div class="log">
+        <ion-button >LOG IN</ion-button>
+      </div>
+
+<br>
+      <div class="acc">
+        <div class="ph">Don't have an account?</div>
+        <ion-button class="sign" fill="clear">SING UP</ion-button>
+      </div>
+      
+      
+        <div class="or">Or</div>
+
+        <div class="icon">
+          <ion-icon class="fac" name="logo-facebook"></ion-icon>
+          <ion-icon class="twit" name="logo-twitter"></ion-icon>
+          <ion-icon class="app" name="logo-apple"></ion-icon>
+        </div>
+      
+
+    </section>
+
+  </div>
+
+</ion-content>
